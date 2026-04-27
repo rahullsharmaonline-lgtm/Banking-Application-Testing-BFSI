@@ -1,0 +1,7 @@
+Bug ID,Test Case Reference,Title,Steps to Reproduce,Expected Result,Actual Result,Severity,Priority,Status
+BUG_001,DB-R01-01,Login issue with valid credentials,Enter valid username and password and click login,User should login successfully,Login fails or redirects incorrectly,High,High,Open
+BUG_002,DB-R01-02,Pulpit page not displaying user details,Login and navigate to pulpit page,User name and balance should be visible,User details not displayed properly,Medium,High,Open
+BUG_003,Login Validation,No validation message for empty fields,Click login without entering credentials,Validation message should appear,No validation or unclear message shown,High,Medium,Open
+BUG_004,UI Issue,Improper UI alignment on login page,Open login page,UI elements should be properly aligned,Fields/buttons misaligned,Low,Low,Open
+BUG_005,Performance,Slow login response,Enter valid credentials and login,Login should be quick,Delay observed during login,Medium,Medium,Open
+BUG_006,Security,Session not handled properly,Login and refresh page,Session should persist or redirect properly,Unexpected logout or access issue,Medium,Medium,Open
